@@ -19,6 +19,6 @@ dag = DAG('test',
 
 t1 = BashOperator(
     task_id="watermark_for_dcs",
-    bash_command="/home/vuviethung/code/code/cen_jobs/project_statistics_monthly/run-project-filtering.sh",
+    bash_command="/home/vuviethung/code/cenjobs/test/run-test.sh",
     dag=dag,
 )

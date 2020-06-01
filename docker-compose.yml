@@ -4,6 +4,7 @@ services:
   postgres:
     restart: always
     image: postgres:9.6
+    container_name: postgres
     ports:
       - 5432:5432
     environment:
@@ -33,7 +34,7 @@ services:
       - "6379:6379"
 
   af_webserver:
-    image: webapp:5005/g_airflow
+    build: .
     restart: always
     depends_on:
       - postgres
@@ -42,9 +43,10 @@ services:
       - LOAD_EX=n
       - FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
       - EXECUTOR=Celery
+      - AIRFLOW_CORE_SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
     volumes:
-      - "./config/airflow.cfg:/usr/local/airflow/airflow.cfg"
       - "./dags:/usr/local/airflow/dags"
+      - "./logs:/usr/local/airflow/logs"
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
     ports:
@@ -56,14 +58,14 @@ services:
       timeout: 30s
       retries: 3
     extra_hosts:
-    - "hd02:10.10.137.42"
-    - "hd03:10.10.137.43"
-    - "crawler:10.10.137.10"
-    - "db2:10.10.137.31"
-    - "crawler_in_db2:10.10.137.31"
+      - "hd02:10.10.137.42"
+      - "hd03:10.10.137.43"
+      - "crawler:10.10.137.10"
+      - "db2:10.10.137.31"
+      - "crawler_in_db2:10.10.137.31"
 
   af_flower:
-    image: puckel/docker-airflow
+    build: .
     restart: always
     depends_on:
       - redis
@@ -74,22 +76,30 @@ services:
     ports:
       - "5555:5555"
     volumes:
+      - "./dags:/usr/local/airflow/dags"
+      - "./logs:/usr/local/airflow/logs"
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
     command: flower
 
   af_scheduler:
-    image: puckel/docker-airflow
+    build: .
     restart: always
     depends_on:
       - af_webserver
+      - postgres
     volumes:
       - "./dags:/usr/local/airflow/dags"
+      - "./logs:/usr/local/airflow/logs"
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
-    environment:
+    environment: 
       - LOAD_EX=n
       - FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
       - EXECUTOR=Celery
-    command: scheduler
-    
+    command:  scheduler
+    healthcheck:
+      test: ["CMD-SHELL", "[ -f /usr/local/airflow/airflow-scheduler.pid ]"]
+      interval: 30s
+      timeout: 30s
+      retries: 3

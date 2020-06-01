@@ -1,9 +1,9 @@
 from airflow import models, settings
 from airflow.contrib.auth.backends.password_auth import PasswordUser
 user = PasswordUser(models.User())
-user.username = 'hungvv1'
-user.email = 'user@email.com'
-user.password = 'hungvv'
+user.username = 'airflow'
+user.email = 'airflow@email.com'
+user.password = 'airflow'
 
 # the secret sauce is right here
 from sqlalchemy import create_engine

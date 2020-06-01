@@ -1,0 +1,1649 @@
+[2020-06-01 16:07:05,604] {dag_processing.py:804} INFO - Processing files using up to 2 processes at a time 
+[2020-06-01 16:07:05,604] {dag_processing.py:805} INFO - Process each file at most once every 0 seconds
+[2020-06-01 16:07:05,604] {dag_processing.py:807} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2020-06-01 16:07:05,610] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  ----------
+/usr/local/airflow/dags/g_filtering_project_dags.py     74  0.00s
+/usr/local/airflow/dags/test.py                         75  0.00s
+================================================================================
+[2020-06-01 16:07:29,706] {dag_processing.py:790} INFO - Exiting gracefully upon receiving signal 15
+[2020-06-01 16:07:29,708] {dag_processing.py:1273} INFO - Waiting up to 5 seconds for processes to exit...
+[2020-06-01 16:08:02,668] {dag_processing.py:804} INFO - Processing files using up to 2 processes at a time 
+[2020-06-01 16:08:02,668] {dag_processing.py:805} INFO - Process each file at most once every 0 seconds
+[2020-06-01 16:08:02,668] {dag_processing.py:807} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2020-06-01 16:08:02,674] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  ----------
+/usr/local/airflow/dags/g_filtering_project_dags.py     17  0.00s
+/usr/local/airflow/dags/test.py                         16  0.00s
+================================================================================
+[2020-06-01 16:08:33,000] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py     82  0.01s      1.01s           2020-06-01T09:08:32
+/usr/local/airflow/dags/test.py                         81  0.01s      1.01s           2020-06-01T09:08:32
+================================================================================
+[2020-06-01 16:09:03,301] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    147  0.00s      1.00s           2020-06-01T09:09:03
+/usr/local/airflow/dags/test.py                        146  0.01s      1.01s           2020-06-01T09:09:03
+================================================================================
+[2020-06-01 16:09:33,584] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    213  0.00s      1.00s           2020-06-01T09:09:33
+/usr/local/airflow/dags/test.py                        212  0.01s      1.01s           2020-06-01T09:09:33
+================================================================================
+[2020-06-01 16:10:03,924] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    279  0.01s      1.00s           2020-06-01T09:10:03
+/usr/local/airflow/dags/test.py                        278  0.01s      1.01s           2020-06-01T09:10:03
+================================================================================
+[2020-06-01 16:10:34,253] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    344  0.00s      1.00s           2020-06-01T09:10:34
+/usr/local/airflow/dags/test.py                        343  0.00s      1.01s           2020-06-01T09:10:34
+================================================================================
+[2020-06-01 16:11:04,568] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    409  0.00s      1.00s           2020-06-01T09:11:04
+/usr/local/airflow/dags/test.py                        408  0.01s      1.01s           2020-06-01T09:11:04
+================================================================================
+[2020-06-01 16:11:34,897] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    474  0.00s      1.00s           2020-06-01T09:11:34
+/usr/local/airflow/dags/test.py                        473  0.01s      1.01s           2020-06-01T09:11:34
+================================================================================
+[2020-06-01 16:12:05,226] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    540  0.00s      1.01s           2020-06-01T09:12:05
+/usr/local/airflow/dags/test.py                        539  0.01s      1.01s           2020-06-01T09:12:05
+================================================================================
+[2020-06-01 16:12:35,581] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    608  0.00s      1.00s           2020-06-01T09:12:35
+/usr/local/airflow/dags/test.py                        607  0.01s      1.01s           2020-06-01T09:12:35
+================================================================================
+[2020-06-01 16:13:02,832] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 16:13:02,833] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 16:13:05,869] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    673  0.00s      1.00s           2020-06-01T09:13:05
+/usr/local/airflow/dags/test.py                        672  0.01s      1.01s           2020-06-01T09:13:05
+================================================================================
+[2020-06-01 16:13:36,160] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    739  0.00s      1.00s           2020-06-01T09:13:36
+/usr/local/airflow/dags/test.py                        738  0.01s      1.01s           2020-06-01T09:13:36
+================================================================================
+[2020-06-01 16:14:06,498] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    804  0.01s      1.01s           2020-06-01T09:14:06
+/usr/local/airflow/dags/test.py                        803  0.01s      1.01s           2020-06-01T09:14:06
+================================================================================
+[2020-06-01 16:14:36,814] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    875  0.00s      1.00s           2020-06-01T09:14:36
+/usr/local/airflow/dags/test.py                        874  0.01s      1.01s           2020-06-01T09:14:36
+================================================================================
+[2020-06-01 16:15:07,101] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    940  0.00s      1.00s           2020-06-01T09:15:07
+/usr/local/airflow/dags/test.py                        939  0.00s      1.01s           2020-06-01T09:15:07
+================================================================================
+[2020-06-01 16:15:37,376] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1005  0.00s      1.01s           2020-06-01T09:15:37
+/usr/local/airflow/dags/test.py                       1004  0.01s      1.01s           2020-06-01T09:15:37
+================================================================================
+[2020-06-01 16:16:07,702] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1072  0.00s      1.01s           2020-06-01T09:16:07
+/usr/local/airflow/dags/test.py                       1071  0.01s      1.01s           2020-06-01T09:16:07
+================================================================================
+[2020-06-01 16:16:38,029] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1138  0.00s      1.00s           2020-06-01T09:16:38
+/usr/local/airflow/dags/test.py                       1137  0.00s      1.01s           2020-06-01T09:16:38
+================================================================================
+[2020-06-01 16:17:08,337] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1203  0.00s      1.00s           2020-06-01T09:17:08
+/usr/local/airflow/dags/test.py                       1202  0.00s      1.01s           2020-06-01T09:17:08
+================================================================================
+[2020-06-01 16:17:38,668] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1269  0.00s      1.01s           2020-06-01T09:17:38
+/usr/local/airflow/dags/test.py                       1268  0.01s      1.01s           2020-06-01T09:17:38
+================================================================================
+[2020-06-01 16:18:02,923] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 16:18:02,925] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 16:18:09,003] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1334  0.00s      1.00s           2020-06-01T09:18:08
+/usr/local/airflow/dags/test.py                       1333  0.01s      1.01s           2020-06-01T09:18:08
+================================================================================
+[2020-06-01 16:18:39,364] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1399  0.01s      1.01s           2020-06-01T09:18:39
+/usr/local/airflow/dags/test.py                       1398  0.01s      1.01s           2020-06-01T09:18:39
+================================================================================
+[2020-06-01 16:19:09,686] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1464  0.00s      1.00s           2020-06-01T09:19:09
+/usr/local/airflow/dags/test.py                       1463  0.01s      1.01s           2020-06-01T09:19:09
+================================================================================
+[2020-06-01 16:19:40,001] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1529  0.00s      1.01s           2020-06-01T09:19:39
+/usr/local/airflow/dags/test.py                       1528  0.01s      1.01s           2020-06-01T09:19:39
+================================================================================
+[2020-06-01 16:20:10,328] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1594  0.00s      1.01s           2020-06-01T09:20:10
+/usr/local/airflow/dags/test.py                       1593  0.01s      1.01s           2020-06-01T09:20:10
+================================================================================
+[2020-06-01 16:20:40,688] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1660  0.01s      1.01s           2020-06-01T09:20:40
+/usr/local/airflow/dags/test.py                       1659  0.01s      1.01s           2020-06-01T09:20:40
+================================================================================
+[2020-06-01 16:21:11,060] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1725  0.00s      1.01s           2020-06-01T09:21:11
+/usr/local/airflow/dags/test.py                       1724  0.01s      1.01s           2020-06-01T09:21:11
+================================================================================
+[2020-06-01 16:21:41,383] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1792  0.00s      1.01s           2020-06-01T09:21:41
+/usr/local/airflow/dags/test.py                       1791  0.01s      1.01s           2020-06-01T09:21:41
+================================================================================
+[2020-06-01 16:22:11,661] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1859  0.00s      1.01s           2020-06-01T09:22:11
+/usr/local/airflow/dags/test.py                       1858  0.00s      1.01s           2020-06-01T09:22:11
+================================================================================
+[2020-06-01 16:22:41,964] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1924  0.01s      1.01s           2020-06-01T09:22:41
+/usr/local/airflow/dags/test.py                       1923  0.01s      1.01s           2020-06-01T09:22:41
+================================================================================
+[2020-06-01 16:23:03,225] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 16:23:03,228] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 16:23:06,068] {dag_processing.py:790} INFO - Exiting gracefully upon receiving signal 15
+[2020-06-01 16:23:06,070] {dag_processing.py:1273} INFO - Waiting up to 5 seconds for processes to exit...
+[2020-06-01 16:24:26,120] {dag_processing.py:804} INFO - Processing files using up to 2 processes at a time 
+[2020-06-01 16:24:26,121] {dag_processing.py:805} INFO - Process each file at most once every 0 seconds
+[2020-06-01 16:24:26,121] {dag_processing.py:807} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2020-06-01 16:24:26,127] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  ----------
+/usr/local/airflow/dags/g_filtering_project_dags.py     22  0.00s
+/usr/local/airflow/dags/test.py                         23  0.00s
+================================================================================
+[2020-06-01 16:24:56,425] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                         90  0.00s      1.00s           2020-06-01T09:24:56
+/usr/local/airflow/dags/g_filtering_project_dags.py     89  0.01s      1.01s           2020-06-01T09:24:56
+================================================================================
+[2020-06-01 16:25:26,745] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        155  0.01s      1.01s           2020-06-01T09:25:26
+/usr/local/airflow/dags/g_filtering_project_dags.py    154  0.01s      1.01s           2020-06-01T09:25:26
+================================================================================
+[2020-06-01 16:25:57,053] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        220  0.01s      1.00s           2020-06-01T09:25:57
+/usr/local/airflow/dags/g_filtering_project_dags.py    219  0.02s      1.01s           2020-06-01T09:25:57
+================================================================================
+[2020-06-01 16:26:27,309] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        285  0.00s      1.01s           2020-06-01T09:26:27
+/usr/local/airflow/dags/g_filtering_project_dags.py    284  0.00s      1.01s           2020-06-01T09:26:27
+================================================================================
+[2020-06-01 16:26:57,598] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        351  0.01s      1.01s           2020-06-01T09:26:57
+/usr/local/airflow/dags/g_filtering_project_dags.py    350  0.01s      1.01s           2020-06-01T09:26:57
+================================================================================
+[2020-06-01 16:27:27,936] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        418  0.00s      1.01s           2020-06-01T09:27:27
+/usr/local/airflow/dags/g_filtering_project_dags.py    417  0.00s      1.01s           2020-06-01T09:27:27
+================================================================================
+[2020-06-01 16:27:58,248] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        483  0.00s      1.00s           2020-06-01T09:27:58
+/usr/local/airflow/dags/g_filtering_project_dags.py    482  0.00s      1.00s           2020-06-01T09:27:58
+================================================================================
+[2020-06-01 16:28:28,567] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        549  0.00s      1.01s           2020-06-01T09:28:28
+/usr/local/airflow/dags/g_filtering_project_dags.py    548  0.01s      1.01s           2020-06-01T09:28:28
+================================================================================
+[2020-06-01 16:28:58,909] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        614  0.00s      1.01s           2020-06-01T09:28:58
+/usr/local/airflow/dags/g_filtering_project_dags.py    613  0.01s      1.01s           2020-06-01T09:28:58
+================================================================================
+[2020-06-01 16:29:26,177] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 16:29:26,178] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 16:29:29,224] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        679  0.00s      1.01s           2020-06-01T09:29:29
+/usr/local/airflow/dags/g_filtering_project_dags.py    678  0.01s      1.01s           2020-06-01T09:29:29
+================================================================================
+[2020-06-01 16:29:59,518] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        744  0.00s      1.00s           2020-06-01T09:29:59
+/usr/local/airflow/dags/g_filtering_project_dags.py    743  0.00s      1.01s           2020-06-01T09:29:59
+================================================================================
+[2020-06-01 16:30:29,870] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        809  0.01s      1.01s           2020-06-01T09:30:29
+/usr/local/airflow/dags/g_filtering_project_dags.py    808  0.01s      1.01s           2020-06-01T09:30:29
+================================================================================
+[2020-06-01 16:31:00,217] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        874  0.00s      1.01s           2020-06-01T09:31:00
+/usr/local/airflow/dags/g_filtering_project_dags.py    873  0.00s      1.01s           2020-06-01T09:31:00
+================================================================================
+[2020-06-01 16:31:23,088] {dag_processing.py:790} INFO - Exiting gracefully upon receiving signal 15
+[2020-06-01 16:31:23,090] {dag_processing.py:1273} INFO - Waiting up to 5 seconds for processes to exit...
+[2020-06-01 16:32:28,089] {dag_processing.py:804} INFO - Processing files using up to 2 processes at a time 
+[2020-06-01 16:32:28,089] {dag_processing.py:805} INFO - Process each file at most once every 0 seconds
+[2020-06-01 16:32:28,089] {dag_processing.py:807} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2020-06-01 16:32:28,094] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  ----------
+/usr/local/airflow/dags/g_filtering_project_dags.py     23  0.00s
+/usr/local/airflow/dags/test.py                         22  0.00s
+================================================================================
+[2020-06-01 16:32:58,429] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py     88  0.00s      1.00s           2020-06-01T09:32:58
+/usr/local/airflow/dags/test.py                         87  0.00s      1.00s           2020-06-01T09:32:58
+================================================================================
+[2020-06-01 16:33:28,735] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    153  0.00s      1.01s           2020-06-01T09:33:28
+/usr/local/airflow/dags/test.py                        152  0.01s      1.01s           2020-06-01T09:33:28
+================================================================================
+[2020-06-01 16:33:59,081] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    218  0.00s      1.01s           2020-06-01T09:33:59
+/usr/local/airflow/dags/test.py                        217  0.01s      1.02s           2020-06-01T09:33:59
+================================================================================
+[2020-06-01 16:34:29,411] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    283  0.00s      1.01s           2020-06-01T09:34:29
+/usr/local/airflow/dags/test.py                        282  0.01s      1.02s           2020-06-01T09:34:29
+================================================================================
+[2020-06-01 16:34:59,734] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    348  0.01s      1.00s           2020-06-01T09:34:59
+/usr/local/airflow/dags/test.py                        347  0.01s      1.01s           2020-06-01T09:34:59
+================================================================================
+[2020-06-01 16:35:30,082] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    416  0.00s      1.00s           2020-06-01T09:35:30
+/usr/local/airflow/dags/test.py                        415  0.01s      1.01s           2020-06-01T09:35:30
+================================================================================
+[2020-06-01 16:36:00,438] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    482  0.00s      1.00s           2020-06-01T09:36:00
+/usr/local/airflow/dags/test.py                        481  0.01s      1.01s           2020-06-01T09:36:00
+================================================================================
+[2020-06-01 16:36:30,746] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    547  0.00s      1.00s           2020-06-01T09:36:30
+/usr/local/airflow/dags/test.py                        546  0.00s      1.01s           2020-06-01T09:36:30
+================================================================================
+[2020-06-01 16:37:01,063] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    615  0.00s      1.01s           2020-06-01T09:37:01
+/usr/local/airflow/dags/test.py                        614  0.00s      1.01s           2020-06-01T09:37:01
+================================================================================
+[2020-06-01 16:37:28,351] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 16:37:28,353] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 16:37:31,442] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    680  0.00s      1.01s           2020-06-01T09:37:31
+/usr/local/airflow/dags/test.py                        679  0.01s      1.02s           2020-06-01T09:37:31
+================================================================================
+[2020-06-01 16:38:01,753] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    745  0.01s      1.01s           2020-06-01T09:38:01
+/usr/local/airflow/dags/test.py                        744  0.01s      1.01s           2020-06-01T09:38:01
+================================================================================
+[2020-06-01 16:38:32,086] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    810  0.00s      1.01s           2020-06-01T09:38:32
+/usr/local/airflow/dags/test.py                        809  0.01s      1.01s           2020-06-01T09:38:32
+================================================================================
+[2020-06-01 16:39:02,375] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    876  0.00s      1.00s           2020-06-01T09:39:02
+/usr/local/airflow/dags/test.py                        875  0.01s      1.01s           2020-06-01T09:39:02
+================================================================================
+[2020-06-01 16:39:32,721] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    941  0.00s      1.01s           2020-06-01T09:39:32
+/usr/local/airflow/dags/test.py                        940  0.01s      1.01s           2020-06-01T09:39:32
+================================================================================
+[2020-06-01 16:40:03,050] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1006  0.00s      1.00s           2020-06-01T09:40:03
+/usr/local/airflow/dags/test.py                       1005  0.01s      1.01s           2020-06-01T09:40:03
+================================================================================
+[2020-06-01 16:40:33,373] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1073  0.00s      1.01s           2020-06-01T09:40:33
+/usr/local/airflow/dags/test.py                       1072  0.01s      1.01s           2020-06-01T09:40:33
+================================================================================
+[2020-06-01 16:41:03,587] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1138  0.00s      1.00s           2020-06-01T09:41:03
+/usr/local/airflow/dags/test.py                       1137  0.00s      1.01s           2020-06-01T09:41:03
+================================================================================
+[2020-06-01 16:41:33,895] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1203  0.00s      1.00s           2020-06-01T09:41:33
+/usr/local/airflow/dags/test.py                       1202  0.01s      1.01s           2020-06-01T09:41:33
+================================================================================
+[2020-06-01 16:42:04,189] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1268  0.00s      1.00s           2020-06-01T09:42:04
+/usr/local/airflow/dags/test.py                       1267  0.00s      1.01s           2020-06-01T09:42:04
+================================================================================
+[2020-06-01 16:42:28,378] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 16:42:28,381] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 16:42:34,448] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1333  0.00s      1.00s           2020-06-01T09:42:34
+/usr/local/airflow/dags/test.py                       1332  0.01s      1.01s           2020-06-01T09:42:34
+================================================================================
+[2020-06-01 16:43:04,685] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1398  0.01s      1.00s           2020-06-01T09:43:04
+/usr/local/airflow/dags/test.py                       1397  0.01s      1.01s           2020-06-01T09:43:04
+================================================================================
+[2020-06-01 16:43:34,942] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1463  0.00s      1.00s           2020-06-01T09:43:34
+/usr/local/airflow/dags/test.py                       1462  0.00s      1.01s           2020-06-01T09:43:34
+================================================================================
+[2020-06-01 16:44:05,130] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1528  0.00s      1.00s           2020-06-01T09:44:05
+/usr/local/airflow/dags/test.py                       1527  0.00s      1.01s           2020-06-01T09:44:05
+================================================================================
+[2020-06-01 16:44:35,410] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1593  0.01s      1.01s           2020-06-01T09:44:35
+/usr/local/airflow/dags/test.py                       1592  0.01s      1.01s           2020-06-01T09:44:35
+================================================================================
+[2020-06-01 16:45:05,723] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1660  0.01s      1.00s           2020-06-01T09:45:05
+/usr/local/airflow/dags/test.py                       1659  0.01s      1.01s           2020-06-01T09:45:05
+================================================================================
+[2020-06-01 16:45:36,020] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1725  0.00s      1.01s           2020-06-01T09:45:36
+/usr/local/airflow/dags/test.py                       1724  0.01s      1.01s           2020-06-01T09:45:36
+================================================================================
+[2020-06-01 16:46:06,340] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1790  0.00s      1.01s           2020-06-01T09:46:06
+/usr/local/airflow/dags/test.py                       1789  0.01s      1.01s           2020-06-01T09:46:06
+================================================================================
+[2020-06-01 16:46:36,655] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1855  0.00s      1.00s           2020-06-01T09:46:36
+/usr/local/airflow/dags/test.py                       1854  0.01s      1.01s           2020-06-01T09:46:36
+================================================================================
+[2020-06-01 16:47:06,932] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1920  0.00s      1.00s           2020-06-01T09:47:06
+/usr/local/airflow/dags/test.py                       1919  0.00s      1.01s           2020-06-01T09:47:06
+================================================================================
+[2020-06-01 16:47:29,160] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 16:47:29,162] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 16:47:37,284] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   1985  0.00s      1.01s           2020-06-01T09:47:37
+/usr/local/airflow/dags/test.py                       1984  0.01s      1.01s           2020-06-01T09:47:37
+================================================================================
+[2020-06-01 16:48:07,604] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2050  0.00s      1.01s           2020-06-01T09:48:07
+/usr/local/airflow/dags/test.py                       2049  0.01s      1.01s           2020-06-01T09:48:07
+================================================================================
+[2020-06-01 16:48:37,897] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2116  0.00s      1.01s           2020-06-01T09:48:37
+/usr/local/airflow/dags/test.py                       2115  0.01s      1.01s           2020-06-01T09:48:37
+================================================================================
+[2020-06-01 16:49:08,173] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2181  0.00s      1.00s           2020-06-01T09:49:08
+/usr/local/airflow/dags/test.py                       2180  0.01s      1.01s           2020-06-01T09:49:08
+================================================================================
+[2020-06-01 16:49:38,443] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2246  0.00s      1.00s           2020-06-01T09:49:38
+/usr/local/airflow/dags/test.py                       2245  0.00s      1.01s           2020-06-01T09:49:38
+================================================================================
+[2020-06-01 16:50:08,683] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2313  0.00s      1.00s           2020-06-01T09:50:08
+/usr/local/airflow/dags/test.py                       2312  0.01s      1.00s           2020-06-01T09:50:08
+================================================================================
+[2020-06-01 16:50:38,975] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2378  0.00s      1.00s           2020-06-01T09:50:38
+/usr/local/airflow/dags/test.py                       2377  0.01s      1.01s           2020-06-01T09:50:38
+================================================================================
+[2020-06-01 16:51:09,234] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2443  0.00s      1.00s           2020-06-01T09:51:09
+/usr/local/airflow/dags/test.py                       2442  0.01s      1.01s           2020-06-01T09:51:09
+================================================================================
+[2020-06-01 16:51:39,498] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2508  0.00s      1.01s           2020-06-01T09:51:39
+/usr/local/airflow/dags/test.py                       2507  0.00s      1.01s           2020-06-01T09:51:39
+================================================================================
+[2020-06-01 16:52:09,831] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2576  0.00s      1.01s           2020-06-01T09:52:09
+/usr/local/airflow/dags/test.py                       2575  0.00s      1.01s           2020-06-01T09:52:09
+================================================================================
+[2020-06-01 16:52:29,989] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 16:52:29,991] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 16:52:40,137] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2641  0.00s      1.01s           2020-06-01T09:52:40
+/usr/local/airflow/dags/test.py                       2640  0.01s      1.01s           2020-06-01T09:52:40
+================================================================================
+[2020-06-01 16:53:10,422] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2706  0.00s      1.01s           2020-06-01T09:53:10
+/usr/local/airflow/dags/test.py                       2705  0.00s      1.01s           2020-06-01T09:53:10
+================================================================================
+[2020-06-01 16:53:40,664] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2771  0.00s      1.01s           2020-06-01T09:53:40
+/usr/local/airflow/dags/test.py                       2770  0.00s      1.01s           2020-06-01T09:53:40
+================================================================================
+[2020-06-01 16:54:10,888] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2837  0.01s      1.01s           2020-06-01T09:54:10
+/usr/local/airflow/dags/test.py                       2836  0.01s      1.01s           2020-06-01T09:54:10
+================================================================================
+[2020-06-01 16:54:41,185] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2903  0.00s      1.00s           2020-06-01T09:54:41
+/usr/local/airflow/dags/test.py                       2902  0.01s      1.01s           2020-06-01T09:54:41
+================================================================================
+[2020-06-01 16:55:11,437] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   2969  0.00s      1.00s           2020-06-01T09:55:11
+/usr/local/airflow/dags/test.py                       2968  0.01s      1.01s           2020-06-01T09:55:11
+================================================================================
+[2020-06-01 16:55:41,707] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3034  0.00s      1.01s           2020-06-01T09:55:41
+/usr/local/airflow/dags/test.py                       3033  0.00s      1.01s           2020-06-01T09:55:41
+================================================================================
+[2020-06-01 16:56:12,008] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3100  0.00s      1.00s           2020-06-01T09:56:12
+/usr/local/airflow/dags/test.py                       3099  0.01s      1.01s           2020-06-01T09:56:12
+================================================================================
+[2020-06-01 16:56:42,328] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3169  0.00s      1.01s           2020-06-01T09:56:42
+/usr/local/airflow/dags/test.py                       3168  0.01s      1.02s           2020-06-01T09:56:42
+================================================================================
+[2020-06-01 16:57:12,670] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3235  0.00s      1.01s           2020-06-01T09:57:12
+/usr/local/airflow/dags/test.py                       3234  0.01s      1.01s           2020-06-01T09:57:12
+================================================================================
+[2020-06-01 16:57:30,876] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 16:57:30,878] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 16:57:43,022] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3300  0.00s      1.01s           2020-06-01T09:57:43
+/usr/local/airflow/dags/test.py                       3299  0.01s      1.01s           2020-06-01T09:57:43
+================================================================================
+[2020-06-01 16:58:13,330] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3365  0.00s      1.00s           2020-06-01T09:58:13
+/usr/local/airflow/dags/test.py                       3364  0.01s      1.01s           2020-06-01T09:58:13
+================================================================================
+[2020-06-01 16:58:43,619] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3430  0.00s      1.00s           2020-06-01T09:58:43
+/usr/local/airflow/dags/test.py                       3429  0.00s      1.01s           2020-06-01T09:58:43
+================================================================================
+[2020-06-01 16:59:13,960] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3495  0.01s      1.00s           2020-06-01T09:59:13
+/usr/local/airflow/dags/test.py                       3494  0.01s      1.01s           2020-06-01T09:59:13
+================================================================================
+[2020-06-01 16:59:44,259] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3560  0.00s      1.00s           2020-06-01T09:59:44
+/usr/local/airflow/dags/test.py                       3559  0.00s      1.01s           2020-06-01T09:59:44
+================================================================================
+[2020-06-01 17:00:14,553] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3625  0.00s      1.01s           2020-06-01T10:00:14
+/usr/local/airflow/dags/test.py                       3624  0.01s      1.01s           2020-06-01T10:00:14
+================================================================================
+[2020-06-01 17:00:44,901] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3690  0.00s      1.01s           2020-06-01T10:00:44
+/usr/local/airflow/dags/test.py                       3689  0.01s      1.01s           2020-06-01T10:00:44
+================================================================================
+[2020-06-01 17:01:15,204] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3756  0.00s      1.01s           2020-06-01T10:01:15
+/usr/local/airflow/dags/test.py                       3755  0.01s      1.01s           2020-06-01T10:01:15
+================================================================================
+[2020-06-01 17:01:45,516] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3823  0.00s      1.01s           2020-06-01T10:01:45
+/usr/local/airflow/dags/test.py                       3822  0.01s      1.01s           2020-06-01T10:01:45
+================================================================================
+[2020-06-01 17:02:15,812] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3890  0.01s      1.00s           2020-06-01T10:02:15
+/usr/local/airflow/dags/test.py                       3889  0.01s      1.01s           2020-06-01T10:02:15
+================================================================================
+[2020-06-01 17:02:30,967] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 17:02:30,970] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 17:02:46,148] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   3956  0.00s      1.00s           2020-06-01T10:02:46
+/usr/local/airflow/dags/test.py                       3955  0.01s      1.01s           2020-06-01T10:02:46
+================================================================================
+[2020-06-01 17:03:16,447] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4021  0.00s      1.01s           2020-06-01T10:03:16
+/usr/local/airflow/dags/test.py                       4020  0.00s      1.01s           2020-06-01T10:03:16
+================================================================================
+[2020-06-01 17:03:46,778] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4086  0.00s      1.00s           2020-06-01T10:03:46
+/usr/local/airflow/dags/test.py                       4085  0.01s      1.01s           2020-06-01T10:03:46
+================================================================================
+[2020-06-01 17:04:17,085] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4152  0.00s      1.01s           2020-06-01T10:04:17
+/usr/local/airflow/dags/test.py                       4151  0.01s      1.01s           2020-06-01T10:04:17
+================================================================================
+[2020-06-01 17:04:47,394] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4221  0.00s      1.00s           2020-06-01T10:04:47
+/usr/local/airflow/dags/test.py                       4220  0.00s      1.01s           2020-06-01T10:04:47
+================================================================================
+[2020-06-01 17:05:17,641] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4287  0.00s      1.00s           2020-06-01T10:05:17
+/usr/local/airflow/dags/test.py                       4286  0.01s      1.01s           2020-06-01T10:05:17
+================================================================================
+[2020-06-01 17:05:47,958] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4354  0.00s      1.01s           2020-06-01T10:05:47
+/usr/local/airflow/dags/test.py                       4353  0.00s      1.01s           2020-06-01T10:05:47
+================================================================================
+[2020-06-01 17:06:18,258] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4419  0.00s      1.01s           2020-06-01T10:06:18
+/usr/local/airflow/dags/test.py                       4418  0.00s      1.01s           2020-06-01T10:06:18
+================================================================================
+[2020-06-01 17:06:48,579] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4484  0.00s      1.01s           2020-06-01T10:06:48
+/usr/local/airflow/dags/test.py                       4483  0.01s      1.01s           2020-06-01T10:06:48
+================================================================================
+[2020-06-01 17:07:18,902] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4550  0.00s      1.01s           2020-06-01T10:07:18
+/usr/local/airflow/dags/test.py                       4549  0.01s      1.01s           2020-06-01T10:07:18
+================================================================================
+[2020-06-01 17:07:31,026] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 17:07:31,028] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 17:07:49,195] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4615  0.00s      1.00s           2020-06-01T10:07:49
+/usr/local/airflow/dags/test.py                       4614  0.01s      1.01s           2020-06-01T10:07:49
+================================================================================
+[2020-06-01 17:08:19,570] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4680  0.00s      1.00s           2020-06-01T10:08:19
+/usr/local/airflow/dags/test.py                       4679  0.01s      1.01s           2020-06-01T10:08:19
+================================================================================
+[2020-06-01 17:08:49,923] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4745  0.00s      1.01s           2020-06-01T10:08:49
+/usr/local/airflow/dags/test.py                       4744  0.01s      1.01s           2020-06-01T10:08:49
+================================================================================
+[2020-06-01 17:09:20,246] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4810  0.00s      1.01s           2020-06-01T10:09:20
+/usr/local/airflow/dags/test.py                       4809  0.01s      1.01s           2020-06-01T10:09:20
+================================================================================
+[2020-06-01 17:09:50,487] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4875  0.00s      1.00s           2020-06-01T10:09:50
+/usr/local/airflow/dags/test.py                       4874  0.00s      1.00s           2020-06-01T10:09:50
+================================================================================
+[2020-06-01 17:10:20,815] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   4941  0.00s      1.01s           2020-06-01T10:10:20
+/usr/local/airflow/dags/test.py                       4940  0.01s      1.01s           2020-06-01T10:10:20
+================================================================================
+[2020-06-01 17:10:51,169] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   5006  0.00s      1.00s           2020-06-01T10:10:51
+/usr/local/airflow/dags/test.py                       5005  0.00s      1.01s           2020-06-01T10:10:51
+================================================================================
+[2020-06-01 17:11:21,510] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   5071  0.00s      1.01s           2020-06-01T10:11:21
+/usr/local/airflow/dags/test.py                       5070  0.01s      1.01s           2020-06-01T10:11:21
+================================================================================
+[2020-06-01 17:11:51,803] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   5137  0.00s      1.00s           2020-06-01T10:11:51
+/usr/local/airflow/dags/test.py                       5136  0.01s      1.01s           2020-06-01T10:11:51
+================================================================================
+[2020-06-01 17:12:22,097] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   5203  0.00s      1.01s           2020-06-01T10:12:22
+/usr/local/airflow/dags/test.py                       5202  0.00s      1.01s           2020-06-01T10:12:22
+================================================================================
+[2020-06-01 17:12:31,194] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 17:12:31,196] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 17:12:52,457] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   5268  0.00s      1.01s           2020-06-01T10:12:52
+/usr/local/airflow/dags/test.py                       5267  0.01s      1.01s           2020-06-01T10:12:52
+================================================================================
+[2020-06-01 17:13:22,781] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   5335  0.00s      1.01s           2020-06-01T10:13:22
+/usr/local/airflow/dags/test.py                       5334  0.01s      1.01s           2020-06-01T10:13:22
+================================================================================
+[2020-06-01 17:13:53,121] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   5400  0.00s      1.00s           2020-06-01T10:13:53
+/usr/local/airflow/dags/test.py                       5399  0.01s      1.01s           2020-06-01T10:13:53
+================================================================================
+[2020-06-01 17:14:23,477] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   5465  0.00s      1.01s           2020-06-01T10:14:23
+/usr/local/airflow/dags/test.py                       5464  0.01s      1.01s           2020-06-01T10:14:23
+================================================================================
+[2020-06-01 17:14:53,810] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   5534  0.00s      1.01s           2020-06-01T10:14:53
+/usr/local/airflow/dags/test.py                       5533  0.01s      1.01s           2020-06-01T10:14:53
+================================================================================
+[2020-06-01 17:15:24,151] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   5600  0.00s      1.01s           2020-06-01T10:15:24
+/usr/local/airflow/dags/test.py                       5599  0.01s      1.01s           2020-06-01T10:15:24
+================================================================================
+[2020-06-01 17:15:54,472] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py   5665  0.00s      1.01s           2020-06-01T10:15:54
+/usr/local/airflow/dags/test.py                       5664  0.01s      1.01s           2020-06-01T10:15:54
+================================================================================
+[2020-06-01 17:16:21,614] {dag_processing.py:790} INFO - Exiting gracefully upon receiving signal 15
+[2020-06-01 17:16:21,616] {dag_processing.py:1273} INFO - Waiting up to 5 seconds for processes to exit...
+[2020-06-01 17:19:21,100] {dag_processing.py:804} INFO - Processing files using up to 2 processes at a time 
+[2020-06-01 17:19:21,100] {dag_processing.py:805} INFO - Process each file at most once every 0 seconds
+[2020-06-01 17:19:21,100] {dag_processing.py:807} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2020-06-01 17:19:21,106] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  ----------
+/usr/local/airflow/dags/g_filtering_project_dags.py     23  0.00s
+/usr/local/airflow/dags/test.py                         22  0.00s
+================================================================================
+[2020-06-01 17:19:51,427] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py     88  0.00s      1.01s           2020-06-01T10:19:51
+/usr/local/airflow/dags/test.py                         87  0.00s      1.01s           2020-06-01T10:19:51
+================================================================================
+[2020-06-01 17:20:21,768] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    153  0.01s      1.00s           2020-06-01T10:20:21
+/usr/local/airflow/dags/test.py                        152  0.01s      1.01s           2020-06-01T10:20:21
+================================================================================
+[2020-06-01 17:20:52,105] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    219  0.00s      1.00s           2020-06-01T10:20:52
+/usr/local/airflow/dags/test.py                        218  0.01s      1.01s           2020-06-01T10:20:52
+================================================================================
+[2020-06-01 17:21:22,427] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    285  0.01s      1.00s           2020-06-01T10:21:22
+/usr/local/airflow/dags/test.py                        284  0.01s      1.01s           2020-06-01T10:21:22
+================================================================================
+[2020-06-01 17:21:43,183] {dag_processing.py:790} INFO - Exiting gracefully upon receiving signal 15
+[2020-06-01 17:21:43,185] {dag_processing.py:1273} INFO - Waiting up to 5 seconds for processes to exit...
+[2020-06-01 17:28:08,931] {dag_processing.py:804} INFO - Processing files using up to 2 processes at a time 
+[2020-06-01 17:28:08,931] {dag_processing.py:805} INFO - Process each file at most once every 0 seconds
+[2020-06-01 17:28:08,932] {dag_processing.py:807} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2020-06-01 17:28:08,939] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  ----------
+/usr/local/airflow/dags/g_filtering_project_dags.py     23  0.00s
+/usr/local/airflow/dags/test.py                         22  0.00s
+================================================================================
+[2020-06-01 17:28:39,234] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py     89  0.00s      1.00s           2020-06-01T10:28:39
+/usr/local/airflow/dags/test.py                         88  0.00s      1.01s           2020-06-01T10:28:39
+================================================================================
+[2020-06-01 17:29:09,569] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    154  0.00s      1.00s           2020-06-01T10:29:09
+/usr/local/airflow/dags/test.py                        153  0.01s      1.01s           2020-06-01T10:29:09
+================================================================================
+[2020-06-01 17:29:39,922] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    219  0.01s      1.01s           2020-06-01T10:29:39
+/usr/local/airflow/dags/test.py                        218  0.01s      1.01s           2020-06-01T10:29:39
+================================================================================
+[2020-06-01 17:30:10,274] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    284  0.01s      1.01s           2020-06-01T10:30:10
+/usr/local/airflow/dags/test.py                        283  0.01s      1.01s           2020-06-01T10:30:10
+================================================================================
+[2020-06-01 17:30:40,667] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    350  0.00s      1.01s           2020-06-01T10:30:40
+/usr/local/airflow/dags/test.py                        349  0.01s      1.01s           2020-06-01T10:30:40
+================================================================================
+[2020-06-01 17:31:11,020] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    415  0.00s      1.00s           2020-06-01T10:31:11
+/usr/local/airflow/dags/test.py                        414  0.01s      1.01s           2020-06-01T10:31:11
+================================================================================
+[2020-06-01 17:31:41,329] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    480  0.00s      1.01s           2020-06-01T10:31:41
+/usr/local/airflow/dags/test.py                        479  0.01s      1.01s           2020-06-01T10:31:41
+================================================================================
+[2020-06-01 17:32:11,680] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    545  0.01s      1.01s           2020-06-01T10:32:11
+/usr/local/airflow/dags/test.py                        544  0.01s      1.01s           2020-06-01T10:32:11
+================================================================================
+[2020-06-01 17:32:42,034] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    610  0.00s      1.00s           2020-06-01T10:32:42
+/usr/local/airflow/dags/test.py                        609  0.01s      1.01s           2020-06-01T10:32:42
+================================================================================
+[2020-06-01 17:33:09,323] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 17:33:09,326] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 17:33:12,402] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    675  0.00s      1.01s           2020-06-01T10:33:12
+/usr/local/airflow/dags/test.py                        674  0.01s      1.01s           2020-06-01T10:33:12
+================================================================================
+[2020-06-01 17:33:42,695] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    742  0.00s      1.01s           2020-06-01T10:33:42
+/usr/local/airflow/dags/test.py                        741  0.00s      1.01s           2020-06-01T10:33:42
+================================================================================
+[2020-06-01 17:36:27,219] {dag_processing.py:804} INFO - Processing files using up to 2 processes at a time 
+[2020-06-01 17:36:27,219] {dag_processing.py:805} INFO - Process each file at most once every 0 seconds
+[2020-06-01 17:36:27,219] {dag_processing.py:807} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2020-06-01 17:36:27,226] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  ----------
+/usr/local/airflow/dags/g_filtering_project_dags.py     18  0.00s
+/usr/local/airflow/dags/test.py                         19  0.00s
+================================================================================
+[2020-06-01 17:36:57,527] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                         84  0.00s      1.00s           2020-06-01T10:36:57
+/usr/local/airflow/dags/g_filtering_project_dags.py     83  0.01s      1.01s           2020-06-01T10:36:57
+================================================================================
+[2020-06-01 17:37:27,841] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        149  0.00s      1.01s           2020-06-01T10:37:27
+/usr/local/airflow/dags/g_filtering_project_dags.py    148  0.01s      1.01s           2020-06-01T10:37:27
+================================================================================
+[2020-06-01 17:37:58,118] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        214  0.00s      1.01s           2020-06-01T10:37:58
+/usr/local/airflow/dags/g_filtering_project_dags.py    213  0.01s      1.01s           2020-06-01T10:37:58
+================================================================================
+[2020-06-01 17:38:28,446] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        283  0.00s      1.01s           2020-06-01T10:38:28
+/usr/local/airflow/dags/g_filtering_project_dags.py    282  0.01s      1.01s           2020-06-01T10:38:28
+================================================================================
+[2020-06-01 17:38:58,775] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        350  0.00s      1.00s           2020-06-01T10:38:58
+/usr/local/airflow/dags/g_filtering_project_dags.py    349  0.01s      1.01s           2020-06-01T10:38:58
+================================================================================
+[2020-06-01 17:39:29,138] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        415  0.00s      1.01s           2020-06-01T10:39:29
+/usr/local/airflow/dags/g_filtering_project_dags.py    414  0.01s      1.01s           2020-06-01T10:39:29
+================================================================================
+[2020-06-01 17:39:59,496] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        481  0.01s      1.01s           2020-06-01T10:39:59
+/usr/local/airflow/dags/g_filtering_project_dags.py    480  0.01s      1.01s           2020-06-01T10:39:59
+================================================================================
+[2020-06-01 17:45:41,697] {dag_processing.py:804} INFO - Processing files using up to 2 processes at a time 
+[2020-06-01 17:45:41,722] {dag_processing.py:805} INFO - Process each file at most once every 0 seconds
+[2020-06-01 17:45:41,722] {dag_processing.py:807} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2020-06-01 17:45:41,728] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  ----------
+/usr/local/airflow/dags/g_filtering_project_dags.py     17  0.00s
+/usr/local/airflow/dags/test.py                         16  0.00s
+================================================================================
+[2020-06-01 17:46:12,012] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py     82  0.00s      1.01s           2020-06-01T10:46:12
+/usr/local/airflow/dags/test.py                         81  0.01s      1.01s           2020-06-01T10:46:12
+================================================================================
+[2020-06-01 17:46:42,274] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    149  0.00s      1.00s           2020-06-01T10:46:42
+/usr/local/airflow/dags/test.py                        148  0.01s      1.01s           2020-06-01T10:46:42
+================================================================================
+[2020-06-01 17:47:12,513] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    214  0.00s      1.00s           2020-06-01T10:47:12
+/usr/local/airflow/dags/test.py                        213  0.01s      1.01s           2020-06-01T10:47:12
+================================================================================
+[2020-06-01 17:47:42,776] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    279  0.01s      1.01s           2020-06-01T10:47:42
+/usr/local/airflow/dags/test.py                        278  0.01s      1.01s           2020-06-01T10:47:42
+================================================================================
+[2020-06-01 17:48:13,037] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    344  0.00s      1.00s           2020-06-01T10:48:13
+/usr/local/airflow/dags/test.py                        343  0.01s      1.01s           2020-06-01T10:48:13
+================================================================================
+[2020-06-01 17:48:43,264] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    410  0.00s      1.00s           2020-06-01T10:48:43
+/usr/local/airflow/dags/test.py                        409  0.01s      1.01s           2020-06-01T10:48:43
+================================================================================
+[2020-06-01 17:49:13,513] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    476  0.00s      1.00s           2020-06-01T10:49:13
+/usr/local/airflow/dags/test.py                        475  0.01s      1.01s           2020-06-01T10:49:13
+================================================================================
+[2020-06-01 17:49:43,782] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    543  0.00s      1.01s           2020-06-01T10:49:43
+/usr/local/airflow/dags/test.py                        542  0.01s      1.01s           2020-06-01T10:49:43
+================================================================================
+[2020-06-01 17:50:14,059] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    609  0.00s      1.00s           2020-06-01T10:50:14
+/usr/local/airflow/dags/test.py                        608  0.01s      1.01s           2020-06-01T10:50:14
+================================================================================
+[2020-06-01 17:50:42,326] {dag_processing.py:892} INFO - Searching for files in /usr/local/airflow/dags
+[2020-06-01 17:50:42,328] {dag_processing.py:895} INFO - There are 2 files in /usr/local/airflow/dags
+[2020-06-01 17:50:44,365] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    674  0.00s      1.01s           2020-06-01T10:50:44
+/usr/local/airflow/dags/test.py                        673  0.01s      1.01s           2020-06-01T10:50:44
+================================================================================
+[2020-06-01 17:51:14,617] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    740  0.00s      1.00s           2020-06-01T10:51:14
+/usr/local/airflow/dags/test.py                        739  0.01s      1.01s           2020-06-01T10:51:14
+================================================================================
+[2020-06-01 17:51:44,909] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    805  0.00s      1.00s           2020-06-01T10:51:44
+/usr/local/airflow/dags/test.py                        804  0.01s      1.01s           2020-06-01T10:51:44
+================================================================================
+[2020-06-01 17:52:15,244] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/g_filtering_project_dags.py    870  0.01s      1.00s           2020-06-01T10:52:15
+/usr/local/airflow/dags/test.py                        869  0.01s      1.01s           2020-06-01T10:52:15
+================================================================================
+[2020-06-01 17:55:13,858] {dag_processing.py:804} INFO - Processing files using up to 2 processes at a time 
+[2020-06-01 17:55:13,858] {dag_processing.py:805} INFO - Process each file at most once every 0 seconds
+[2020-06-01 17:55:13,858] {dag_processing.py:807} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2020-06-01 17:55:13,864] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  ----------
+/usr/local/airflow/dags/g_filtering_project_dags.py     16  0.00s
+/usr/local/airflow/dags/test.py                         17  0.00s
+================================================================================
+[2020-06-01 17:55:44,181] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                         83  0.00s      1.01s           2020-06-01T10:55:44
+/usr/local/airflow/dags/g_filtering_project_dags.py     82  0.01s      1.02s           2020-06-01T10:55:44
+================================================================================
+[2020-06-01 17:56:14,516] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        149  0.01s      1.00s           2020-06-01T10:56:14
+/usr/local/airflow/dags/g_filtering_project_dags.py    148  0.01s      1.01s           2020-06-01T10:56:14
+================================================================================
+[2020-06-01 17:56:44,849] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        214  0.00s      1.01s           2020-06-01T10:56:44
+/usr/local/airflow/dags/g_filtering_project_dags.py    213  0.01s      1.01s           2020-06-01T10:56:44
+================================================================================
+[2020-06-01 17:57:15,139] {dag_processing.py:1004} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime    Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------------  -------------------
+/usr/local/airflow/dags/test.py                        281  0.00s      1.01s           2020-06-01T10:57:15
+/usr/local/airflow/dags/g_filtering_project_dags.py    280  0.01s      1.01s           2020-06-01T10:57:15
+================================================================================
