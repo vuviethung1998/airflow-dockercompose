@@ -1,0 +1,86 @@
+version: '2.1'
+
+services:
+    postgres:
+        image: postgres:9.6
+        environment:
+            - POSTGRES_USER=airflow
+            - POSTGRES_PASSWORD=airflow
+            - POSTGRES_DB=airflow
+        volumes:
+            - "/etc/timezone:/etc/timezone:ro"
+            - "/etc/localtime:/etc/localtime:ro"
+        ports:
+            - 5432:5432
+
+    pgadmin:
+        restart: always
+        image: dpage/pgadmin4
+        environment: 
+            - PGADMIN_DEFAULT_EMAIL=admin
+            - PGADMIN_DEFAULT_PASSWORD=admin
+        volumes: 
+            - "/etc/timezone:/etc/timezone:ro"
+            - "/etc/localtime:/etc/localtime:ro"
+        ports: 
+            - 5051:80
+    
+    redis:
+        image: redis:5.0.3
+        restart: always
+        ports:
+            - "6379:6379"
+    
+    webserver:
+        build: .
+        restart: always
+        depends_on:
+            - postgres
+            - redis
+        environment:
+            - LOAD_EX=n
+            - EXECUTOR=Celery
+            - FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
+        volumes:
+            - ./dags:/usr/local/airflow/dags
+            - "./config/airflow.cfg:/usr/local/airflow/airflow.cfg"
+            - "/etc/timezone:/etc/timezone:ro"
+            - "/etc/localtime:/etc/localtime:ro"
+        ports:
+            - "8080:8080"
+        command: webserver
+        healthcheck:
+            test: ["CMD-SHELL", "[ -f /usr/local/airflow/airflow-webserver.pid ]"]
+            interval: 30s
+            timeout: 30s
+            retries: 3
+    
+    flower:
+        build: .
+        restart: always
+        depends_on:
+            - redis
+        environment:
+            - EXECUTOR=Celery
+        ports:
+            - "5555:5555"
+        volumes:
+            - "/etc/timezone:/etc/timezone:ro"
+            - "/etc/localtime:/etc/localtime:ro"
+        command: flower
+    
+    scheduler:
+        build: .
+        restart: always
+        depends_on:
+            - postgres
+        environment:
+            - LOAD_EX=n
+            - EXECUTOR=Celery
+            - FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
+        volumes:
+            - ./dags:/usr/local/airflow/dags
+            - ./logs:/usr/local/airflow/logs
+            - "/etc/timezone:/etc/timezone:ro"
+            - "/etc/localtime:/etc/localtime:ro"
+        command: scheduler
