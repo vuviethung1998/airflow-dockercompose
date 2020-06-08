@@ -31,9 +31,15 @@ services:
     restart: always
     ports:
       - "6379:6379"
+      
+  initdb:
+    build: .
+    entrypoint: airflow initdb
+    depends_on:
+     - postgres
 
   af_webserver:
-    image: webapp:5005/g_airflow
+    build: .
     restart: always
     depends_on:
       - postgres
@@ -43,7 +49,6 @@ services:
       - FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
       - EXECUTOR=Celery
     volumes:
-      - "./config/airflow.cfg:/usr/local/airflow/airflow.cfg"
       - "./dags:/usr/local/airflow/dags"
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
@@ -56,14 +61,14 @@ services:
       timeout: 30s
       retries: 3
     extra_hosts:
-    - "hd02:10.10.137.42"
-    - "hd03:10.10.137.43"
-    - "crawler:10.10.137.10"
-    - "db2:10.10.137.31"
-    - "crawler_in_db2:10.10.137.31"
+      - "hd02:10.10.137.42"
+      - "hd03:10.10.137.43"
+      - "crawler:10.10.137.10"
+      - "db2:10.10.137.31"
+      - "crawler_in_db2:10.10.137.31"
 
   af_flower:
-    image: puckel/docker-airflow
+    build: .
     restart: always
     depends_on:
       - redis
@@ -79,7 +84,7 @@ services:
     command: flower
 
   af_scheduler:
-    image: puckel/docker-airflow
+    build: .
     restart: always
     depends_on:
       - af_webserver
