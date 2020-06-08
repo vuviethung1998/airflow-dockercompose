@@ -20,5 +20,6 @@ dag = DAG('test',
 t1 = BashOperator(
     task_id="watermark_for_dcs",
     bash_command="/home/vuviethung/code/cenjobs/test/run-test.sh",
+    queue="worker_1",
     dag=dag,
 )

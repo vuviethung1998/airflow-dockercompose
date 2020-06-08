@@ -23,4 +23,5 @@ t1 = BashOperator(
     task_id="project_statistics_monthly",
     bash_command='/home/vuviethung/code/code/cen_jobs/project_statistics_monthly/run-project-filtering.sh',
     dag=dag,
+    queue='worker_2'
 )
