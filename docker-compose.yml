@@ -1,7 +1,9 @@
 version: '2.1'
 services:
     redis:
-        image: 'redis:5.0.5'
+        image: 'redis:5.0.3'
+        ports: 
+            - "6379:6379"
         # command: redis-server --requirepass redispass
 
     postgres:
@@ -10,10 +12,21 @@ services:
             - POSTGRES_USER=airflow
             - POSTGRES_PASSWORD=airflow
             - POSTGRES_DB=airflow
+        ports:
+            - "5432:5432"
         # Uncomment these lines to persist data on the local filesystem.
         #     - PGDATA=/var/lib/postgresql/data/pgdata
         # volumes:
         #     - ./pgdata:/var/lib/postgresql/data/pgdata
+    
+    pgadmin:
+        restart: always
+        image: dpage/pgadmin4
+        environment:
+            - PGADMIN_DEFAULT_EMAIL=admin
+            - PGADMIN_DEFAULT_PASSWORD=admin
+        ports:
+            - 5051:80
 
     webserver:
         image: puckel/docker-airflow:1.10.9
@@ -31,6 +44,8 @@ services:
             # - REDIS_PASSWORD=redispass
         volumes:
             - ./dags:/usr/local/airflow/dags
+            - "/etc/timezone:/etc/timezone:ro"
+            - "/etc/localtime:/etc/localtime:ro"
             # Uncomment to include custom plugins
             # - ./plugins:/usr/local/airflow/plugins
         ports:
@@ -52,6 +67,9 @@ services:
             # - REDIS_PASSWORD=redispass
         ports:
             - "5555:5555"
+        volumes: 
+            - "/etc/timezone:/etc/timezone:ro"
+            - "/etc/localtime:/etc/localtime:ro"
         command: flower
 
     scheduler:
@@ -61,6 +79,8 @@ services:
             - webserver
         volumes:
             - ./dags:/usr/local/airflow/dags
+            - "/etc/timezone:/etc/timezone:ro"
+            - "/etc/localtime:/etc/localtime:ro"
             # Uncomment to include custom plugins
             # - ./plugins:/usr/local/airflow/plugins
         environment:
@@ -80,6 +100,8 @@ services:
             - scheduler
         volumes:
             - ./dags:/usr/local/airflow/dags
+            - "/etc/timezone:/etc/timezone:ro"
+            - "/etc/localtime:/etc/localtime:ro"
             # Uncomment to include custom plugins
             # - ./plugins:/usr/local/airflow/plugins
         environment:
